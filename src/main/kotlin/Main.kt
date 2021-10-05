@@ -28,4 +28,7 @@ fun main(args: Array<String>)
     fun List<String>.getLongestString() = this.sortedByDescending { it.length }[0]
     println(myList.getLongestString())
 
+// Problem 3.
+
+
 }
