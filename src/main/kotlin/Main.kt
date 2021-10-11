@@ -8,7 +8,7 @@ fun main(args: Array<String>)
 {
 // Problem 1.
 // code for testing problem 1.
-    /*
+
     val dict: IDictionary = DictionaryProvider.createDictionary(DictionaryType.HASH_SET)
     println("Number of words: ${dict.size()}")
     var word: String?
@@ -19,7 +19,7 @@ fun main(args: Array<String>)
         if( word.equals("quit")) break
         println("Result: ${word?.let { dict.find(it) }}")
     }
-    */
+
 // Problem 2.
     fun String.printMonogram() { println(this.split(' ').map { it[0] }.joinToString (separator = "")) }
     val name :String = "Will Smith"
